@@ -1,0 +1,2 @@
+Amazon Bedrock Overview
+Amazon Bedrock is a fully managed service that makes high-performing foundation models (FMs) from leading AI startups and Amazon available for your use through a unified API. You can choose from a wide range of foundation models to find the model that is best suited for your use case. Bedrock supports models from Anthropic, Meta, Mistral AI, Cohere, AI21 Labs, and Amazon. It is serverless, meaning you don't have to manage any infrastructure.
