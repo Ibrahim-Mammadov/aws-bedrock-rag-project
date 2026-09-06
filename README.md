@@ -96,3 +96,7 @@ python query_rag.py
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Senior engineering notes
+
+Use the AWS SDK credential chain and never commit token files, credentials, private documents, or generated indexes. Before production add source citations, retrieval and answer-quality evaluation, PII redaction, bounded retries, cost/latency telemetry, and access-controlled storage.
