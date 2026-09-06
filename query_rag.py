@@ -1,12 +1,13 @@
 import boto3
 import json
+import os
 from langchain_aws import BedrockEmbeddings
 from langchain_community.vectorstores import FAISS
 
 # 1. Initialize AWS Bedrock client
 bedrock_client = boto3.client(
     service_name="bedrock-runtime",
-    region_name="eu-central-1"
+    region_name=os.getenv("AWS_REGION", "eu-central-1")
 )
 
 # 2. Load the Bedrock Embeddings model
