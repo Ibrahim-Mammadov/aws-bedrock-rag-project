@@ -1,12 +1,7 @@
-# Virtual environment
-venv/
-
-# Python cache
-__pycache__/
-*.pyc
-
-# Vector Database
-faiss_index/
-
-# Environment variables
+# Secrets and local runtime files
 .env
+*.token
+token.txt
+*.pem
+.aws/
+__pycache__/
